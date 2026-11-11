@@ -1,0 +1,11 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "crvz-oscar" },
+  "plugins": [
+    {
+      "name": "token-usage",
+      "source": "./plugins/token-usage",
+      "description": "Muestra el uso de tokens de cada sesión (entrada, salida, caché) en un panel y en la línea de estado"
+    }
+  ]
+}
