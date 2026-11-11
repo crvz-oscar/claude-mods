@@ -1,11 +1,18 @@
 {
   "name": "claude-mods",
-  "owner": { "name": "crvz-oscar" },
+  "owner": {
+    "name": "crvz-oscar"
+  },
   "plugins": [
     {
       "name": "token-usage",
       "source": "./plugins/token-usage",
       "description": "Muestra el uso de tokens de cada sesión (entrada, salida, caché) en un panel y en la línea de estado"
+    },
+    {
+      "name": "model-switch",
+      "source": "./plugins/model-switch",
+      "description": "Selector de modelo encima del prompt para cambiar de modelo en mitad de la sesión"
     }
   ]
 }

@@ -1,0 +1,1 @@
+{ "name": "model-switch", "version": "0.2.0", "description": "Selector de modelo encima del prompt, como el de VS Code: cambia el modelo en mitad de la sesión", "types": "./types/index.d.ts" }
