@@ -1,0 +1,1 @@
+{ "name": "files-changed", "version": "0.1.0", "description": "Lista los archivos que Claude ha editado en la sesión; se abre con /cambios", "types": "./types/index.d.ts" }

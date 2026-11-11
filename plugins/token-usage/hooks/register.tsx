@@ -67,7 +67,6 @@ export const register: Register = on => {
       })
       const all = await read($, sessions)
       await $.store.set(STORE_KEY, all)
-      $.ui.status(`tokens ${fmt(total(mine))} (↑${fmt(mine.input + mine.cacheRead + mine.cacheWrite)} ↓${fmt(mine.output)})`)
     }
     return next(e)
   })

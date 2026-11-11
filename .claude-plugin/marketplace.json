@@ -13,6 +13,21 @@
       "name": "model-switch",
       "source": "./plugins/model-switch",
       "description": "Selector de modelo encima del prompt para cambiar de modelo en mitad de la sesión"
+    },
+    {
+      "name": "status-bar",
+      "source": "./plugins/status-bar",
+      "description": "Barra de estado con modelo, porcentaje de contexto y coste de la sesión"
+    },
+    {
+      "name": "long-turn-alert",
+      "source": "./plugins/long-turn-alert",
+      "description": "Notificación cuando una respuesta de Claude tarda más de 60 segundos"
+    },
+    {
+      "name": "files-changed",
+      "source": "./plugins/files-changed",
+      "description": "Lista de archivos editados en la sesión, se abre con /cambios"
     }
   ]
 }

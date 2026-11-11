@@ -1,1 +1,1 @@
-{ "name": "token-usage", "version": "0.1.0", "description": "Muestra el uso de tokens de cada sesión (entrada, salida, caché) en un panel y en la línea de estado", "types": "./types/index.d.ts" }
+{ "name": "token-usage", "version": "0.2.0", "description": "Muestra el uso de tokens de cada sesión (entrada, salida, caché) en un panel y en la línea de estado", "types": "./types/index.d.ts" }

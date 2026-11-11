@@ -1,0 +1,1 @@
+{ "name": "long-turn-alert", "version": "0.1.0", "description": "Avisa con una notificación cuando una respuesta de Claude tarda más de 60 segundos" }
